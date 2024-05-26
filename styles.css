@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 50px 100px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    margin-bottom: 50px;
+}
+
+.header {
+    margin-bottom: 100px;
+}
+
+.msg {
+    margin-bottom: 20px;
+}
+
+.msg.error {
+    color: red;
+}
+
+.msg.success {
+    color: green;
+}
+
+a {
+    color: #337ab7;
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+}
+
+a[href="./add.php"], a[href="./logout.php"] {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 0 1rem;
+}
+
+td a {
+    font-size: 1rem;
+}
+
+form div {
+    padding: 1rem 0;
+}
+
+form label {
+    font-weight: bold;
+    display: inline-block;
+    width: 6rem;
+}
+
+form input {
+    width: 300px;
+}
+
+form button {
+    padding: .2rem 1rem;
+}
+
+.hint {
+    font-size: .8rem;
+    margin-bottom: 20px;
+}
+
+table {
+    margin: 0 auto;
+    width: 1000px;
+    border: 1px solid;
+}
+
+table caption {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+th, td {
+    text-align: center;
+    border: 1px solid;
+    padding: .5rem 0;
+}
